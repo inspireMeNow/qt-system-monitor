@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProcessWindow</class>
+ <widget class="QWidget" name="ProcessWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>119</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>用户</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>进程号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>进程名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>%CPU</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>%MEM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>启动时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>占用CPU时间</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
