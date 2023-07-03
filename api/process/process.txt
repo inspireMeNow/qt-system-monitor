@@ -1,0 +1,215 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 229964 13368 ?        Ss   6月30   0:22 /usr/lib/systemd/syste
+root           2  0.0  0.0      0     0 ?        S    6月30   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   6月30   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   6月30   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   6月30   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   6月30   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/0:0H-events_h
+root          10  0.0  0.0      0     0 ?        I<   6月30   0:00 [mm_percpu_wq]
+root          12  0.0  0.0      0     0 ?        I    6月30   0:00 [rcu_tasks_kthread]
+root          13  0.0  0.0      0     0 ?        I    6月30   0:00 [rcu_tasks_rude_kthrea
+root          14  0.0  0.0      0     0 ?        I    6月30   0:00 [rcu_tasks_trace_kthre
+root          15  0.0  0.0      0     0 ?        S    6月30   0:08 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    6月30   1:14 [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/1:0H-events_h
+root          27  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    6月30   0:08 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/2:0H-events_h
+root          33  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/3:0H-events_h
+root          39  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/4]
+root          42  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/4]
+root          44  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/4:0H-events_h
+root          45  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/5]
+root          50  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/5:0H-events_h
+root          51  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/6]
+root          56  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/6:0H-events_h
+root          57  0.0  0.0      0     0 ?        S    6月30   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    6月30   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    6月30   0:00 [migration/7]
+root          60  0.0  0.0      0     0 ?        S    6月30   0:07 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   6月30   0:00 [kworker/7:0H-events_h
+root          63  0.0  0.0      0     0 ?        S    6月30   0:00 [kdevtmpfs]
+root          64  0.0  0.0      0     0 ?        I<   6月30   0:00 [inet_frag_wq]
+root          65  0.0  0.0      0     0 ?        S    6月30   0:00 [kauditd]
+root          67  0.0  0.0      0     0 ?        S    6月30   0:00 [oom_reaper]
+root          69  0.0  0.0      0     0 ?        I<   6月30   0:00 [writeback]
+root          70  0.3  0.0      0     0 ?        S    6月30  13:05 [kcompactd0]
+root          71  0.0  0.0      0     0 ?        SN   6月30   0:00 [ksmd]
+root          73  0.0  0.0      0     0 ?        SN   6月30   0:01 [khugepaged]
+root          74  0.0  0.0      0     0 ?        I<   6月30   0:00 [cryptd]
+root          75  0.0  0.0      0     0 ?        I<   6月30   0:00 [kintegrityd]
+root          76  0.0  0.0      0     0 ?        I<   6月30   0:00 [kblockd]
+root          77  0.0  0.0      0     0 ?        I<   6月30   0:00 [blkcg_punt_bio]
+root          83  0.0  0.0      0     0 ?        I<   6月30   0:00 [tpm_dev_wq]
+root          84  0.0  0.0      0     0 ?        I<   6月30   0:00 [ata_sff]
+root          85  0.0  0.0      0     0 ?        I<   6月30   0:00 [md]
+root          86  0.0  0.0      0     0 ?        I<   6月30   0:00 [edac-poller]
+root          87  0.0  0.0      0     0 ?        S    6月30   0:00 [watchdogd]
+root          88  0.0  0.0      0     0 ?        I<   6月30   0:02 [kworker/0:1H-events_h
+root          89  0.0  0.0      0     0 ?        S    6月30   1:02 [kswapd0]
+root          96  0.0  0.0      0     0 ?        I<   6月30   0:00 [kthrotld]
+root         103  0.0  0.0      0     0 ?        S    6月30   0:00 [irq/126-pciehp]
+root         104  0.0  0.0      0     0 ?        S    6月30   0:00 [irq/127-pciehp]
+root         105  0.0  0.0      0     0 ?        I<   6月30   0:00 [acpi_thermal_pm]
+root         106  0.0  0.0      0     0 ?        S    6月30   0:00 [xenbus_probe]
+
+
+Name:	mmcqd/0boot0
+State:	S (sleeping)
+Tgid:	82
+Pid:	82
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	32
+Groups:	
+Threads:	1
+SigQ:	0/7504
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	ffffffffffffffff
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	ffffffffffffffff
+CapEff:	ffffffffffffffff
+CapBnd:	ffffffffffffffff
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	8
+nonvoluntary_ctxt_switches:	3
+
+Name:   main
+Umask:  0022
+State:  R (running)
+Tgid:   1766116
+Ngid:   0
+Pid:    1766116
+PPid:   1764658
+TracerPid:      0
+Uid:    1000    1000    1000    1000
+Gid:    1000    1000    1000    1000
+FDSize: 128
+Groups: 10 18 975 976 1000 
+NStgid: 1766116
+NSpid:  1766116
+NSpgid: 1766116
+NSsid:  1764658
+VmPeak:  4404928 kB
+VmSize:  4404928 kB
+VmLck:         0 kB
+VmPin:         0 kB
+VmHWM:      7060 kB
+VmRSS:      7060 kB
+RssAnon:            3348 kB
+RssFile:            3712 kB
+RssShmem:              0 kB
+VmData:   149276 kB
+VmStk:       136 kB
+VmExe:      2856 kB
+VmLib:         8 kB
+VmPTE:        92 kB
+VmSwap:        0 kB
+HugetlbPages:          0 kB
+CoreDumping:    0
+THP_enabled:    1
+Threads:        2
+SigQ:   0/62180
+SigPnd: 0000000000000000
+ShdPnd: 0000000000000000
+SigBlk: 0000000000000000
+SigIgn: 0000000000000000
+SigCgt: ffffffff7780feff
+CapInh: 0000000000000000
+CapPrm: 0000000000000000
+CapEff: 0000000000000000
+CapBnd: 000001ffffffffff
+CapAmb: 0000000000000000
+NoNewPrivs:     0
+Seccomp:        0
+Seccomp_filters:        0
+Speculation_Store_Bypass:       thread vulnerable
+SpeculationIndirectBranch:      conditional enabled
+Cpus_allowed:   ff
+Cpus_allowed_list:      0-7
+Mems_allowed:   00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:      0
+voluntary_ctxt_switches:        5
+nonvoluntary_ctxt_switches:     4505
+
+
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/usr/sbin/nologin
+systemd-oom:x:999:999:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/usr/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+polkitd:x:998:997:User for polkitd:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+geoclue:x:997:996:User for geoclue:/var/lib/geoclue:/sbin/nologin
+nm-openconnect:x:996:995:NetworkManager user for OpenConnect:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+gluster:x:995:994:GlusterFS daemons:/run/gluster:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+chrony:x:994:992:chrony system user:/var/lib/chrony:/sbin/nologin
+dnsmasq:x:993:991:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+colord:x:992:990:User for colord:/var/lib/colord:/sbin/nologin
+saslauth:x:991:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+openvpn:x:990:989:OpenVPN:/etc/openvpn:/sbin/nologin
+nm-openvpn:x:989:988:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologin
+unbound:x:988:987:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+pipewire:x:987:986:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+flatpak:x:986:984:Flatpak system helper:/:/usr/sbin/nologin
+gdm:x:42:42:GNOME Display Manager:/var/lib/gdm:/usr/sbin/nologin
+gnome-initial-setup:x:985:983::/run/gnome-initial-setup/:/sbin/nologin
+vboxadd:x:984:1::/var/run/vboxadd:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+tcpdump:x:72:72:tcpdump:/:/sbin/nologin
+systemd-coredump:x:978:978:systemd Core Dumper:/:/usr/sbin/nologin
+systemd-timesync:x:977:977:systemd Time Synchronization:/:/usr/sbin/nologin
+duan:x:1000:1000:duan:/home/duan:/bin/zsh
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/sbin/nologin
+firebird:x:976:972::/:/sbin/nologin
+akmods:x:975:970:User is used by akmods to build akmod packages:/var/cache/akmods/:/sbin/nologin
