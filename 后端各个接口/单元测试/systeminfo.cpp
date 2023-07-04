@@ -1,6 +1,27 @@
-#include "systeminfo.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include<sstream>
 
 using namespace std;
+
+class System {
+public:
+    string distributor;
+	string description;
+	string release;
+	string codename;
+	void tostring()
+	{
+		cout<<"distributor:"<<distributor<<endl;
+		cout<<"description:"<<description<<endl;
+		cout<<"release:"<<release<<endl;
+		cout<<"codename:"<<codename<<endl;
+	}
+};
+
 //去除字符串中的""
 string trim(string &s) 
 {
@@ -13,8 +34,8 @@ string trim(string &s)
     return s;
 }
 
-// ---- get System info ---- //
-System getSystemInfo(){
+// ---- get OS info ---- //
+System getOSInfo() {
     System system;
     ifstream file;
 	
@@ -77,11 +98,11 @@ System getSystemInfo(){
 	return system;
 }
 
-/* int main() 
+int main() 
 {
     printf("=== OS infomation ===\n");
 	System sys;
     sys=getOSInfo();
 	sys.tostring();
     return 0;
-} */
+}

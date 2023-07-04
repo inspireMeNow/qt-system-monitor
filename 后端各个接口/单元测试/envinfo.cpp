@@ -1,4 +1,23 @@
-#include "envinfo.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+#include<sstream>
+#include<vector>
+
+using namespace std;
+
+class Env {
+public:
+    string key;
+    string value;
+	
+	void tostring()
+	{
+		cout<<"key:"<<key<<endl;
+		cout<<"value:"<<value<<endl;
+	}
+};
 
 // ---- get Env info ---- //
 vector<Env> getEnvInfo() {
@@ -29,7 +48,7 @@ vector<Env> getEnvInfo() {
 	return envs;
 }
 
-/* int main() 
+int main() 
 {
     printf("=== env infomation ===\n");
 	vector<Env> envs;
@@ -40,4 +59,4 @@ vector<Env> getEnvInfo() {
 	}
 
     return 0;
-} */
+}

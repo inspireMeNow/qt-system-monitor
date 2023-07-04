@@ -1,8 +1,33 @@
-#include "memoryinfo.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include<sstream>
 
 using namespace std;
+
+class Memory {
+public:
+    string id;
+    string total;
+    string used;
+    string free;
+    string shared;
+    string cache;
+	void tostring()
+	{
+		cout<<"id:"<<id<<endl;
+		cout<<"total:"<<total<<endl;
+		cout<<"used:"<<used<<endl;
+		cout<<"free:"<<free<<endl;
+		cout<<"shared:"<<shared<<endl;
+		cout<<"cache:"<<cache<<endl;
+	}
+};
+
 //去除字符串中的制表符
-std::string trim(std::string &s) 
+string trim(string &s) 
 {
     if (!s.empty()) 
     {
@@ -14,26 +39,24 @@ std::string trim(std::string &s)
 }
 
 // ---- get memory info ---- //
-std::vector<Memory> getMemoryInfo() {
-	std::vector<Memory> memories;
-
+Memory getMemoryInfo() {
+    Memory memory;
+	memory.id="0";
     ifstream file;
 	file.open("/proc/meminfo");
     if (!file.good())
         printf("failed to open meminfo\n");
     
     // read file line by line
-	std::string temp;
-	std::string name;
-    std::string value;
+	string temp;
+	string name;
+    string value;
 	
 	// 用于将字符串转为整型
 	
 	int temp1=0;
-	Memory memory;
-	memory.id="0";
     while (getline(file,temp))
-	{   
+	{
 		int pos=temp.find_first_of(":");
 		// cout<<temp1<<endl;
 		// cout<<"flag"<<pos<<endl;
@@ -107,18 +130,17 @@ std::vector<Memory> getMemoryInfo() {
 			geek1<<temp1;
 			geek1>>memory.cache;
 			memory.cache=memory.cache+" MB";
-		}		
+		}	
     }
-	memories.push_back(memory);
     file.close();
-	return memories;
+	return memory;
 }
 
-/* int main() 
+int main() 
 {
     printf("=== memory infomation ===\n");
 	Memory memory;
     memory=getMemoryInfo();
 	memory.tostring();
     return 0;
-} */
+}

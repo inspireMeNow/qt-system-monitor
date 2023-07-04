@@ -54,3 +54,8 @@ class Software --已安装软件
 EN		CN		var
 name		软件名称	name
 
+class Button --按钮状态
+EN		CN		var
+button_id	按钮编号	button_id
+status	按钮状态	status
+
