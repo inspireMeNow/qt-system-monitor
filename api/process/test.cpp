@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <iostream>
-#include "process.h"
+#include "process.cpp"
 int main()
 {
     std::vector<process> v = get_pid();
