@@ -2,6 +2,7 @@
 #define NETWORKWINDOW_H
 
 #include <QWidget>
+#include "networkinfo.h"
 
 namespace Ui {
 class NetworkWindow;
@@ -14,6 +15,8 @@ class NetworkWindow : public QWidget
 public:
     explicit NetworkWindow(QWidget *parent = NULL);
     ~NetworkWindow();
+    void updateTable();
+    void timerEvent(QTimerEvent *event);
 
 private:
     Ui::NetworkWindow *ui;

@@ -240,7 +240,7 @@ QPushButton:default {
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="labelDist">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -263,7 +263,7 @@ QPushButton:default {
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -271,7 +271,7 @@ QPushButton:default {
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="labelDesc">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -299,7 +299,7 @@ QPushButton:default {
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Ubuntu</string>
+         <string/>
         </property>
         <property name="scaledContents">
          <bool>false</bool>
@@ -313,7 +313,7 @@ QPushButton:default {
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="labelRel">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -330,7 +330,7 @@ QPushButton:default {
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -338,7 +338,7 @@ QPushButton:default {
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="labelCode">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -355,7 +355,7 @@ QPushButton:default {
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>

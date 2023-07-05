@@ -29,6 +29,71 @@
    <property name="spacing">
     <number>0</number>
    </property>
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>92</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>接口名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>接口类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>MAC地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>IP地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>子网掩码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>广播地址</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>网关</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上传速度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>下载速度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上传流量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>下载流量</string>
+      </property>
+     </column>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>

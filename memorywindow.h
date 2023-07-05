@@ -2,6 +2,7 @@
 #define MEMORYWINDOW_H
 
 #include <QWidget>
+#include "memoryinfo.h"
 
 namespace Ui {
 class MemoryWindow;
@@ -14,6 +15,8 @@ class MemoryWindow : public QWidget
 public:
     explicit MemoryWindow(QWidget *parent = NULL);
     ~MemoryWindow();
+    void updateTable();
+    void timerEvent(QTimerEvent *event);
 
 private:
     Ui::MemoryWindow *ui;

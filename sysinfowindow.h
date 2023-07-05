@@ -2,6 +2,7 @@
 #define SYSINFOWINDOW_H
 
 #include <QWidget>
+#include "systeminfo.h"
 
 namespace Ui {
 class SysInfoWindow;
@@ -14,6 +15,7 @@ class SysInfoWindow : public QWidget
 public:
     explicit SysInfoWindow(QWidget *parent = NULL);
     ~SysInfoWindow();
+    void updateTable();
 
 private:
     Ui::SysInfoWindow *ui;

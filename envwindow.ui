@@ -45,12 +45,7 @@
      </attribute>
      <column>
       <property name="text">
-       <string>变量</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>值</string>
+       <string>程序</string>
       </property>
      </column>
     </widget>

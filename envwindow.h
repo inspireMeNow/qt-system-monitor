@@ -2,6 +2,7 @@
 #define ENVWINDOW_H
 
 #include <QWidget>
+#include "envinfo.h"
 
 namespace Ui {
 class EnvWindow;
@@ -14,6 +15,7 @@ class EnvWindow : public QWidget
 public:
     explicit EnvWindow(QWidget *parent = NULL);
     ~EnvWindow();
+    void updateTable();
 
 private:
     Ui::EnvWindow *ui;
