@@ -1,4 +1,4 @@
-#include "net.cpp"
+#include "../net/net.cpp"
 int main(){
     std::vector<net> v = get_net();
     for (int i = 0; i < v.size(); i++)

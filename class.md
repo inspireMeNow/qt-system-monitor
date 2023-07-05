@@ -34,14 +34,14 @@ shared		共享内存大小	shared
 cache		缓存		cache
 
 class Process --进程
-EN		CN		var
-user		用户		user
-pid		进程号		pid
-command		进程名		command
-%cpu		CPU占用百分比	cpuperc
-%mem		内存占用百分比	memperc
-start		启动时间	start
-time		占用CPU时间	time
+EN		    CN		          var
+user		用户		       user
+pid		    进程号             pid
+command		进程名		       command
+%cpu		CPU占用百分比(%)	processperc
+%mem		内存占用量(MB)	    memperc
+start		启动时间	       start
+time		运行时长(s)	       time
 
 class System --系统信息
 EN		CN		var
@@ -59,3 +59,16 @@ EN		CN		var
 button_id	按钮编号	button_id
 status	按钮状态	status
 
+class Process --网络接口
+EN		        CN		          var
+ifname		    接口名称		    ifname
+iftype		    接口类型            iftype
+mac		        MAC地址		        mac
+ip		        IP地址	            ip
+mask		    子网掩码	        mask
+broadcast	    广播地址	        broadcast
+gateway		    网关	            gateway
+upload_speed    上传速度(bit)       upload_speed
+download_speed  下载速度(bit)       download_speed
+upload_bytes    上传流量(bit)       upload_bytes
+download_bytes  下载流量(bit)       download_bytes
