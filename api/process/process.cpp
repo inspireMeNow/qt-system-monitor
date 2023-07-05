@@ -1,5 +1,5 @@
 #include "process.h"
-process *set_args(std::string user, int pid, std::string command, double processperc, int memperc, double start, std::string time)
+process *set_args(std::string user, std::string pid, std::string command, std::string processperc, std::string memperc, std::string start, std::string time)
 {
     process *p = new process;
     p->user = user;
@@ -124,7 +124,23 @@ std::vector<process> get_pid()
         }
         process *p = new process;
         std::map<double, std::string> map = getRuntime(pid);
-        p = set_args(user, pid, command, cpu_usage * 100, get_proc_mem(pid), map.begin()->first, map.begin()->second);
+        std::string str_cpu_usage;
+        std::string str_memperc;
+        std::string str_start;
+        std::string str_pid_temp;
+        std::stringstream s;
+        s << cpu_usage * 100;
+        s >> str_cpu_usage;
+        s.clear();
+        s << get_proc_mem(pid);
+        s >> str_memperc;
+        s.clear();
+        s << map.begin()->first;
+        s >> str_start;
+        s.clear();
+        s << pid;
+        s >> str_pid_temp;
+        p = set_args(user, str_pid_temp, command, str_cpu_usage, str_memperc, str_start, map.begin()->second);
         // std::cout << p->user << " " << p->pid << " " << p->command << " " << p->processperc << " " << p->memperc << " " << p->start << " " << p->time << std::endl;
         v.push_back(*p);
         free(p);
