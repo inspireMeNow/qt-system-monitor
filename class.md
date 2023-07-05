@@ -1,14 +1,14 @@
 class Cpu --CPU信息
-EN		CN		var
-Processor	CPU编号  	Processor
-BogoMIPS	CPU速度估测	BogoMIPS
-Features			Features
-CPU implementer		implementer
-CPU architecture		architecture
-CPU variant			variant
-CPU part			part
-CPU revision		revision
-Hardware			Hardware
+EN			CN		var
+Processor		CPU编号  	Processor
+BogoMIPS		CPU速度估测	BogoMIPS
+Features		特征		Features
+CPU implementer	销售ID 	implementer
+CPU architecture	架构版本	architecture
+CPU variant		大版本号	variant
+CPU part		产品代码	part
+CPU revision	小版本号	revision
+Hardware		主板型号	Hardware
 
 class Env --环境变量
 EN		CN		var
