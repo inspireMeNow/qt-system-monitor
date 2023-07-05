@@ -28,15 +28,15 @@
 typedef struct process
 {
     std::string user;    // 用户
-    int pid;             // 进程号
+    std::string pid;             // 进程号
     std::string command; // 进程名
-    double processperc;   // CPU占用百分比
-    int memperc; // 内存占用
-    double start;   // 启动时间
+    std::string processperc;   // CPU占用百分比
+    std::string memperc; // 内存占用
+    std::string start;   // 启动时间
     std::string time;    // 运行时间
 } process;
 
-process *set_args(std::string user, int pid, std::string command, std::string processperc, std::string memperc, std::string start, std::string time);
+process *set_args(std::string user, std::string pid, std::string command, std::string processperc, std::string memperc, std::string start, std::string time);
 int get_pid_by_name(const char *name);
 std::vector<process> get_pid();
 int start_process(const char *name);
