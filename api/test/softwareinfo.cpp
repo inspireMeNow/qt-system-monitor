@@ -23,10 +23,12 @@ vector<Software> getFiles()
 	DIR *pDir;
     struct dirent* ptr;
     if(!(pDir = opendir("/usr/share/applications"))){
-    // if(!(pDir = opendir(path.c_str()))){
-        cout<<"Folder doesn't Exist!"<<endl;
-        exit(0);
+        cout<<"applications folder doesn't Exist!"<<endl;
     }
+	else if(!(pDir = opendir("/usr/sbin"))){
+		cout<<"sbin folder doesn't Exist!"<<endl;
+		exit(0);
+	}
     while((ptr = readdir(pDir))!=0) {
         if (ptr->d_name[0]!='.'){
 			Software software;
