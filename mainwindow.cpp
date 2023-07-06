@@ -76,5 +76,6 @@ void MainWindow::on_btnSysInfo_clicked()
 
 void MainWindow::on_btnTest_clicked()
 {
+    open_button();
     ui->stackedWidget->setCurrentIndex(7);
 }

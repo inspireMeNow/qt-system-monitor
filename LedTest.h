@@ -17,8 +17,6 @@
 #include <signal.h>
 #include <ctype.h>
 
-void sigint_handler(int sig);
-
 bool LedTest(int led_no,int status );
 
 #endif

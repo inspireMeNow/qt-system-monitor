@@ -10,7 +10,7 @@ CPU part		产品代码	part
 CPU revision	小版本号	revision
 Hardware		主板型号	Hardware
 
-class Env --环境变量
+class Env --程序
 EN		CN		var
 key		变量		key		
 value		值		value

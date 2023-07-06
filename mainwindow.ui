@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>系统检控助手</string>
+   <string>系统监控助手</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -92,7 +92,7 @@ QToolButton:pressed,QToolButton:checked{
 </string>
          </property>
          <property name="text">
-          <string>CPU</string>
+          <string>CPU信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
@@ -153,7 +153,7 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>内存</string>
+          <string>内存信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
@@ -214,7 +214,7 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>网络</string>
+          <string>网络信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
@@ -288,7 +288,7 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>进程</string>
+          <string>进程信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
@@ -349,7 +349,7 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>环境变量</string>
+          <string>程序信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">

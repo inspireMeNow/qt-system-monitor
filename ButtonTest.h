@@ -19,5 +19,5 @@
 
 
 std::string BeginButtonTest();
-
+void open_button();
 #endif

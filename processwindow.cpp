@@ -6,7 +6,7 @@ ProcessWindow::ProcessWindow(QWidget *parent) :
     ui(new Ui::ProcessWindow)
 {
     ui->setupUi(this);
-    startTimer(2000);
+    startTimer(5000);
 }
 
 ProcessWindow::~ProcessWindow()

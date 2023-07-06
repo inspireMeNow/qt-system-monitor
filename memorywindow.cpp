@@ -7,7 +7,7 @@ MemoryWindow::MemoryWindow(QWidget *parent) :
     ui(new Ui::MemoryWindow)
 {
     ui->setupUi(this);
-    startTimer(2000);
+    startTimer(5000);
 }
 
 MemoryWindow::~MemoryWindow()

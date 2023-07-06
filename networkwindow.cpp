@@ -6,7 +6,7 @@ NetworkWindow::NetworkWindow(QWidget *parent) :
     ui(new Ui::NetworkWindow)
 {
     ui->setupUi(this);
-    startTimer(2000);
+    startTimer(5000);
 
 }
 
