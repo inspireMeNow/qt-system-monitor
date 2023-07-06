@@ -2,7 +2,7 @@
 #define CPUWINDOW_H
 
 #include <QWidget>
-
+#include "cpuinfo.h"
 namespace Ui {
 class CpuWindow;
 }
@@ -14,6 +14,7 @@ class CpuWindow : public QWidget
 public:
     explicit CpuWindow(QWidget *parent = NULL);
     ~CpuWindow();
+    void updateTable();
 
 private:
     Ui::CpuWindow *ui;

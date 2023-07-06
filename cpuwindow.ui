@@ -50,42 +50,42 @@
      </column>
      <column>
       <property name="text">
-       <string>制造商</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>标称</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>主频</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>缓存大小</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>物理核数</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>浮点支持</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
        <string>速度估测</string>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>缓存刷新大小</string>
+       <string>描述</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>销售ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>架构</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>大版本号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>产品代码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>小版本号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>主板</string>
       </property>
      </column>
     </widget>

@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>887</width>
-    <height>656</height>
+    <height>764</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>系统检控助手</string>
+   <string>系统监控助手</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -59,25 +59,12 @@
        <property name="spacing">
         <number>0</number>
        </property>
-       <item row="8" column="0">
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>288</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item row="1" column="0">
         <widget class="QToolButton" name="btnCpu">
          <property name="minimumSize">
           <size>
            <width>86</width>
-           <height>86</height>
+           <height>90</height>
           </size>
          </property>
          <property name="styleSheet">
@@ -105,133 +92,11 @@ QToolButton:pressed,QToolButton:checked{
 </string>
          </property>
          <property name="text">
-          <string>CPU</string>
+          <string>CPU信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
            <normaloff>:/icons/permission.png</normaloff>:/icons/permission.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>48</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-         <property name="toolButtonStyle">
-          <enum>Qt::ToolButtonTextUnderIcon</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QToolButton" name="btnNetwork">
-         <property name="minimumSize">
-          <size>
-           <width>86</width>
-           <height>86</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">/* 默认 */
-QToolButton{   
-	border-top: 3px outset transparent;
-	border-bottom: 7px outset transparent;
-	border-right: 3px outset transparent;
-	border-left: 3px outset transparent;
-    min-width: 80px;
-    min-height: 80px;
-	background-color: rgb(228, 228, 228);
-}
-
-/* 鼠标悬停 */
-QToolButton:hover{
-	background-color: rgb(205, 205, 205);
-}
-
-/* 点击和按下 */
-QToolButton:pressed,QToolButton:checked{
-	border-left: 3px outset rgb(93, 95, 97);
-	background-color: rgb(246, 246, 246);	
-}
-
-QPushButton:default {
-    border-color: navy; /* make the default button prominent */
-}
-
-</string>
-         </property>
-         <property name="text">
-          <string>网络</string>
-         </property>
-         <property name="icon">
-          <iconset resource="resources.qrc">
-           <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>48</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-         <property name="toolButtonStyle">
-          <enum>Qt::ToolButtonTextUnderIcon</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QToolButton" name="btnEnv">
-         <property name="minimumSize">
-          <size>
-           <width>86</width>
-           <height>86</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">/* 默认 */
-QToolButton{   
-	border-top: 3px outset transparent;
-	border-bottom: 7px outset transparent;
-	border-right: 3px outset transparent;
-	border-left: 3px outset transparent;
-    min-width: 80px;
-    min-height: 80px;
-	background-color: rgb(228, 228, 228);
-}
-
-/* 鼠标悬停 */
-QToolButton:hover{
-	background-color: rgb(205, 205, 205);
-}
-
-/* 点击和按下 */
-QToolButton:pressed,QToolButton:checked{
-	border-left: 3px outset rgb(93, 95, 97);
-	background-color: rgb(246, 246, 246);	
-}
-
-QPushButton:default {
-    border-color: navy; /* make the default button prominent */
-}
-
-</string>
-         </property>
-         <property name="text">
-          <string>环境变量</string>
-         </property>
-         <property name="icon">
-          <iconset resource="resources.qrc">
-           <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -255,7 +120,7 @@ QPushButton:default {
          <property name="minimumSize">
           <size>
            <width>86</width>
-           <height>86</height>
+           <height>90</height>
           </size>
          </property>
          <property name="styleSheet">
@@ -288,7 +153,264 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>内存</string>
+          <string>内存信息</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QToolButton" name="btnNetwork">
+         <property name="minimumSize">
+          <size>
+           <width>86</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* 默认 */
+QToolButton{   
+	border-top: 3px outset transparent;
+	border-bottom: 7px outset transparent;
+	border-right: 3px outset transparent;
+	border-left: 3px outset transparent;
+    min-width: 80px;
+    min-height: 80px;
+	background-color: rgb(228, 228, 228);
+}
+
+/* 鼠标悬停 */
+QToolButton:hover{
+	background-color: rgb(205, 205, 205);
+}
+
+/* 点击和按下 */
+QToolButton:pressed,QToolButton:checked{
+	border-left: 3px outset rgb(93, 95, 97);
+	background-color: rgb(246, 246, 246);	
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>网络信息</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>288</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QToolButton" name="btnProcess">
+         <property name="minimumSize">
+          <size>
+           <width>86</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* 默认 */
+QToolButton{   
+	border-top: 3px outset transparent;
+	border-bottom: 7px outset transparent;
+	border-right: 3px outset transparent;
+	border-left: 3px outset transparent;
+    min-width: 80px;
+    min-height: 80px;
+	background-color: rgb(228, 228, 228);
+}
+
+/* 鼠标悬停 */
+QToolButton:hover{
+	background-color: rgb(205, 205, 205);
+}
+
+/* 点击和按下 */
+QToolButton:pressed,QToolButton:checked{
+	border-left: 3px outset rgb(93, 95, 97);
+	background-color: rgb(246, 246, 246);	
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>进程信息</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/user.png</normaloff>:/icons/user.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QToolButton" name="btnEnv">
+         <property name="minimumSize">
+          <size>
+           <width>86</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* 默认 */
+QToolButton{   
+	border-top: 3px outset transparent;
+	border-bottom: 7px outset transparent;
+	border-right: 3px outset transparent;
+	border-left: 3px outset transparent;
+    min-width: 80px;
+    min-height: 80px;
+	background-color: rgb(228, 228, 228);
+}
+
+/* 鼠标悬停 */
+QToolButton:hover{
+	background-color: rgb(205, 205, 205);
+}
+
+/* 点击和按下 */
+QToolButton:pressed,QToolButton:checked{
+	border-left: 3px outset rgb(93, 95, 97);
+	background-color: rgb(246, 246, 246);	
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>程序信息</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QToolButton" name="btnSysInfo">
+         <property name="minimumSize">
+          <size>
+           <width>86</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* 默认 */
+QToolButton{   
+	border-top: 3px outset transparent;
+	border-bottom: 7px outset transparent;
+	border-right: 3px outset transparent;
+	border-left: 3px outset transparent;
+    min-width: 80px;
+    min-height: 80px;
+	background-color: rgb(228, 228, 228);
+}
+
+/* 鼠标悬停 */
+QToolButton:hover{
+	background-color: rgb(205, 205, 205);
+}
+
+/* 点击和按下 */
+QToolButton:pressed,QToolButton:checked{
+	border-left: 3px outset rgb(93, 95, 97);
+	background-color: rgb(246, 246, 246);	
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>系统信息</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">
@@ -372,14 +494,8 @@ QPushButton:default {
          </property>
         </widget>
        </item>
-       <item row="0" column="0">
-        <widget class="QToolButton" name="btnProcess">
-         <property name="minimumSize">
-          <size>
-           <width>86</width>
-           <height>86</height>
-          </size>
-         </property>
+       <item row="8" column="0">
+        <widget class="QToolButton" name="btnTest">
          <property name="styleSheet">
           <string notr="true">/* 默认 */
 QToolButton{   
@@ -410,68 +526,7 @@ QPushButton:default {
 </string>
          </property>
          <property name="text">
-          <string>进程</string>
-         </property>
-         <property name="icon">
-          <iconset resource="resources.qrc">
-           <normaloff>:/icons/user.png</normaloff>:/icons/user.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>48</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-         <property name="toolButtonStyle">
-          <enum>Qt::ToolButtonTextUnderIcon</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QToolButton" name="btnSysInfo">
-         <property name="minimumSize">
-          <size>
-           <width>86</width>
-           <height>86</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">/* 默认 */
-QToolButton{   
-	border-top: 3px outset transparent;
-	border-bottom: 7px outset transparent;
-	border-right: 3px outset transparent;
-	border-left: 3px outset transparent;
-    min-width: 80px;
-    min-height: 80px;
-	background-color: rgb(228, 228, 228);
-}
-
-/* 鼠标悬停 */
-QToolButton:hover{
-	background-color: rgb(205, 205, 205);
-}
-
-/* 点击和按下 */
-QToolButton:pressed,QToolButton:checked{
-	border-left: 3px outset rgb(93, 95, 97);
-	background-color: rgb(246, 246, 246);	
-}
-
-QPushButton:default {
-    border-color: navy; /* make the default button prominent */
-}
-
-</string>
-         </property>
-         <property name="text">
-          <string>系统信息</string>
+          <string>硬件测试</string>
          </property>
          <property name="icon">
           <iconset resource="resources.qrc">

@@ -11,7 +11,7 @@
 #include "filewindow.h"
 #include "networkwindow.h"
 #include "sysinfowindow.h"
-
+#include "testwindow.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -24,10 +24,27 @@ public:
     MainWindow(QWidget *parent = NULL);
     ~MainWindow();
 
+private slots:
+    void on_btnProcess_clicked();
+
+    void on_btnCpu_clicked();
+
+    void on_btnMemory_clicked();
+
+    void on_btnNetwork_clicked();
+
+    void on_btnFile_clicked();
+
+    void on_btnEnv_clicked();
+
+    void on_btnSysInfo_clicked();
+
+    void on_btnTest_clicked();
+
 private:
     Ui::MainWindow *ui;
 
-    QButtonGroup btnGroup;
+    //QButtonGroup btnGroup;
     ProcessWindow processWnd;
     CpuWindow cpuWnd;
     MemoryWindow memoryWnd;
@@ -35,5 +52,6 @@ private:
     FileWindow fileWnd;
     NetworkWindow networkWnd;
     SysInfoWindow sysinfoWnd;
+    TestWindow testWnd;
 };
 #endif // MAINWINDOW_H

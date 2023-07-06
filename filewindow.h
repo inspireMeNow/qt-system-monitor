@@ -2,6 +2,7 @@
 #define FILEWINDOW_H
 
 #include <QWidget>
+#include "fileinfo.h"
 
 namespace Ui {
 class FileWindow;
@@ -14,6 +15,7 @@ class FileWindow : public QWidget
 public:
     explicit FileWindow(QWidget *parent = NULL);
     ~FileWindow();
+    void updateTable();
 
 private:
     Ui::FileWindow *ui;
